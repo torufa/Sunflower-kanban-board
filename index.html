@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunflower Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="btn">
+                <button>Add New Task</button>
+            </div>
+        </nav>
+        <section class="board">
+            <div id="todo" class="task-col">
+                <div class="heading">
+                    <div class="left">
+                        <h3>TO DO</h3>
+                    </div>
+                    <div class="right">
+                        <p>count</p>
+                    </div>
+                </div>
+            </div>
+            <div id="progress" class="task-col">
+                <div class="heading">
+                    <div class="left">
+                        <h3>IN PROGRESS</h3>
+                    </div>
+                    <div class="right">
+                        <p>count</p>
+                    </div>
+                </div>
+            </div>
+            <div id="done" class="task-col">
+                <div class="heading">
+                    <div class="left">
+                        <h3>DONE</h3>
+                    </div>
+                    <div class="right">
+                        <p>count</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="modal">
+        <div class="glass"></div>
+        <div class="content">
+            <input type="text" placeholder="Title">
+            <textarea placeholder="Details..." rows='10' cols="60"></textarea>
+            <button>Add Task</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
